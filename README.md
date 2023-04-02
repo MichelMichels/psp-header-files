@@ -1,4 +1,4 @@
-# PSP - C libraries
+# PSP C libraries
 This repository contains some libraries to ease development on the PlayStation Portable.
 
 ## Libraries
