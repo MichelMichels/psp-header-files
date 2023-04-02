@@ -3,22 +3,12 @@
 
 #include <pspdebug.h>
 
-void WriteLine(char* text) {
-    pspDebugScreenPrintf(text);
-    pspDebugScreenPrintf("\n");
-}
-void ClearScreen() {
-    pspDebugScreenClear();
-}
+void Write(char* text);
+void WriteLine(char* text);
+void ClearScreen();
 
-void EnableBackgroundColor() {
-    pspDebugScreenEnableBackColor(1);
-}
-void DisableBackgroundColor() {
-    pspDebugScreenEnableBackColor(0);
-}
-void SetBackgroundColor(u32 color) {
-    pspDebugScreenSetBackColor(color);
-}
+void EnableBackgroundColor();
+void DisableBackgroundColor();
+void SetBackgroundColor(u32 color);
 
 #endif /* MM_PSP_DEBUG */
