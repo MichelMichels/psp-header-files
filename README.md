@@ -7,5 +7,6 @@ Libraries present in the `src` folder.
 
 |Filename|Include guard|Description|
 |---|---|---|
-|colors.h |MM_PSP_COLORS |Contains an enum of C# sharp colors and their `uint32_t` equivalent. |
-|debug.h |MM_PSP_DEBUG |Contains some wrapping functions for easier debugging. |
+|mmcolors.h |MM_PSP_COLORS |Contains an enum of C# sharp colors and their `uint32_t` equivalent. |
+|mmdebug.h |MM_PSP_DEBUG |Contains some wrapping functions for easier debugging. |
+|mminit.h |MM_PSP_INIT |`SetupCallbacks` functions.  |

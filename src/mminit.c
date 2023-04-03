@@ -1,4 +1,4 @@
-#include <init.h>
+#include <mminit.h>
 
 int ExitCallback(int arg1, int arg2, void* common){
 	sceKernelExitGame();
