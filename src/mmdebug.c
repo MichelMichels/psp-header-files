@@ -1,3 +1,6 @@
+// Author: Michel Michels
+// Date: 2023-04-03
+
 #include <mmdebug.h>
 
 void Write(char* text) {
